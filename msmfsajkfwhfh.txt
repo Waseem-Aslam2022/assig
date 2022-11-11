@@ -1,0 +1,37 @@
+create table books_details(
+id int,
+book_name varchar(255),
+catagory  varchar(255),
+book_status  varchar(255),
+shelf_number int,
+price int,
+);
+
+insert into books_details
+(id,book_name,catagory,book_status,shelf_number,price)
+values
+(1,'Egghead by Bo Burnham','Comedy','Issued',10,100),
+(2,'Rosemarys Baby','Horror','Un_Issued',20,200),
+(3,'Game of Thrones','Fantacy','Issued',30,400),
+(4,'1st Samuel. Story of Saul','History','Un_Issued',40,500),
+(5,'THE ZERO SUGAR DIET','Health','Issued',50,600),
+(6,'Catch-22 by Joseph Heller','Comedy','Un_Issued',10,300),
+(7,'Hell House','Horror','Issued',20,200),
+(8,'The Name of the Wind','Fantacy','Un_Issued',30,100),
+(9,'2nd Kings. Exile','History','Issued',40,700),
+(10,'THE WHOLE30 COOKBOOK','Health','Un_Issued',50,500),
+(11,'Cruel Shoes by Steve Martin','Comedy','Issued',10,400),
+(12,'The Ruins by Scott Smith','Horror','Un_Issued',20,300),
+(13,'The Way of Kings','Fantacy','Issued',30,100),
+(14,'1st Kings. Story of Solomon','History','Un_Issued',40,700),
+(15,'THE LOSE YOUR BELLY DIET','Health','Issued',50,400),
+(16,'Bossypants by Tina Fey','Comedy','Un_Issued',10,200),
+(17,'The Exorcist','Horror','Issued',20,500),
+(18,'Kushiels Dart','Fantacy','Un_Issued',30,200),
+(19,'Joshua. Conquer','History','Issued',40,100),
+(20,'The Sellout by Paul Beatty','Comedy','Un_Issued',10,600);
+
+ 
+select * from book_details
+drop table book_details
+ 
